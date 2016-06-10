@@ -1,0 +1,51 @@
+{
+  "name": "gulpbrowserifyserver",
+  "version": "0.6.0",
+  "author": "peteplays",
+  "description": "gulp browserify server",
+  "keywords": [
+    "peteplays",
+    "gulp",
+    "browserify",
+    "express",
+    "live reload",
+    "react",
+    "font-awesome"
+  ],
+  "scripts": {
+    "prestart": "gulp local",
+    "start": "node server.js",
+    "build": "gulp build",
+    "dev": "gulp",
+    "dev-no-db": "gulp no-db"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/peteplays/rDeal"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "babel-preset-es2015": "^6.9.0",
+    "babelify": "^7.3.0",
+    "body-parser": "^1.15.0",
+    "bootstrap": "^3.3.6",
+    "browser-sync": "^2.11.1",
+    "browserify": "^13.0.1",
+    "express": "^4.13.4",
+    "font-awesome": "^4.5.0",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.0",
+    "gulp-clean-css": "^2.0.7",
+    "gulp-less": "^3.0.5",
+    "gulp-nodemon": "^2.0.6",
+    "gulp-rename": "^1.2.2",
+    "gulp-uglify": "^1.5.3",
+    "mongodb": "^2.1.7",
+    "path": "^0.12.7",
+    "react": "^15.1.0",
+    "react-dom": "^15.1.0",
+    "serve-favicon": "^2.3.0",
+    "underscore": "^1.8.3",
+    "vinyl-source-stream": "^1.1.0"
+  }
+}

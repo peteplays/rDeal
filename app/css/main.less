@@ -1,0 +1,29 @@
+@bg : #2a751e;
+@blue1: rgba(79, 92, 77, 0.32);
+
+body {
+    background-color: @bg;
+    background-image: url('../images/light-wool.png');
+    font-family: 'Alegreya Sans', sans-serif;
+}
+.btn:focus,
+.btn:active:focus,
+.btn.active:focus{
+    outline: none;
+}
+.content-style{
+    background-color: @blue1;
+    margin: 10px auto;
+    padding: 30px 10px;
+    border-radius: 4px;
+    box-shadow: 2px 2px 2px darken(@blue1, 50%), -1px -1px 2px darken(@blue1, 80%);;
+}
+h1,
+h2{
+    color: #eee;
+}
+.title-img{
+    width: 150px;
+    margin: 0 auto;
+    display: block;
+}

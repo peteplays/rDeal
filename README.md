@@ -1,4 +1,4 @@
-# _theDeal_
+# _Deal_
 
 ## Install
 Clone repo
